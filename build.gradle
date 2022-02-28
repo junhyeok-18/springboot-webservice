@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'eclipse'
+    id 'org.springframework.boot' version '2.6.4'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+}
+
+group 'com.junhyeok.study'
+version '1.0-SNAPSHOT-' //+ new Date().format('yyyyMMddHHmmss')
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //spring boot
+    implementation('org.springframework.boot:spring-boot-starter-web')
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
+
+    //spring security
+
+    //lombok
+
+    //DB
+}
+
+test {
+    useJUnitPlatform()
+}
