@@ -1,7 +1,9 @@
 package com.junhyeok.study.springboot.web;
 
 import com.junhyeok.study.springboot.service.posts.PostsService;
+import com.junhyeok.study.springboot.web.dto.PostsResponseDto;
 import com.junhyeok.study.springboot.web.dto.PostsSaveRequestDto;
+import com.junhyeok.study.springboot.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
