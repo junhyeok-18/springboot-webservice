@@ -1,6 +1,6 @@
-package com.junhyeok.study.springboot.confing;
+package com.junhyeok.study.springboot.config;
 
-import com.junhyeok.study.springboot.confing.auth.LoginUserArgumentResolver;
+import com.junhyeok.study.springboot.config.auth.LoginUserArgumentResolver;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;

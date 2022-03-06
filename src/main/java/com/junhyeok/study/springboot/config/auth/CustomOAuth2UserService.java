@@ -1,7 +1,7 @@
-package com.junhyeok.study.springboot.confing.auth;
+package com.junhyeok.study.springboot.config.auth;
 
-import com.junhyeok.study.springboot.confing.auth.dto.OAuthAttributes;
-import com.junhyeok.study.springboot.confing.auth.dto.SessionUser;
+import com.junhyeok.study.springboot.config.auth.dto.OAuthAttributes;
+import com.junhyeok.study.springboot.config.auth.dto.SessionUser;
 import com.junhyeok.study.springboot.domain.user.User;
 import com.junhyeok.study.springboot.domain.user.UserRepository;
 import lombok.RequiredArgsConstructor;

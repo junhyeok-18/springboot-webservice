@@ -1,4 +1,4 @@
-package com.junhyeok.study.springboot.confing.auth;
+package com.junhyeok.study.springboot.config.auth;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

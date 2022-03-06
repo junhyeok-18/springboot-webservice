@@ -1,6 +1,6 @@
-package com.junhyeok.study.springboot.confing.auth;
+package com.junhyeok.study.springboot.config.auth;
 
-import com.junhyeok.study.springboot.confing.auth.dto.SessionUser;
+import com.junhyeok.study.springboot.config.auth.dto.SessionUser;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.MethodParameter;
 import org.springframework.stereotype.Component;

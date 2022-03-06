@@ -1,4 +1,4 @@
-package com.junhyeok.study.springboot.confing.auth;
+package com.junhyeok.study.springboot.config.auth;
 
 import com.junhyeok.study.springboot.domain.user.Role;
 import lombok.RequiredArgsConstructor;

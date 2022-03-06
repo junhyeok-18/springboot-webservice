@@ -1,7 +1,7 @@
-package com.junhyeok.study.springboot.confing.auth.dto;
+package com.junhyeok.study.springboot.config.auth.dto;
 
-import com.junhyeok.study.springboot.domain.user.User;
 import com.junhyeok.study.springboot.domain.user.Role;
+import com.junhyeok.study.springboot.domain.user.User;
 import lombok.Builder;
 import lombok.Getter;
 
@@ -9,7 +9,6 @@ import java.util.Map;
 
 @Getter
 public class OAuthAttributes {
-
     private Map<String, Object> attributes;
     private String nameAttributeKey;
     private String name;
@@ -29,6 +28,7 @@ public class OAuthAttributes {
         if("naver".equals(registrationId)) {
             return ofNaver("id", attributes);
         }
+
         return ofGoogle(userNameAttributeName, attributes);
     }
 
@@ -46,10 +46,10 @@ public class OAuthAttributes {
         Map<String, Object> response = (Map<String, Object>) attributes.get("response");
 
         return OAuthAttributes.builder()
-                .name((String) attributes.get("name"))
-                .email((String) attributes.get("email"))
-                .picture((String) attributes.get("picture"))
-                .attributes(attributes)
+                .name((String) response.get("name"))
+                .email((String) response.get("email"))
+                .picture((String) response.get("profile_image"))
+                .attributes(response)
                 .nameAttributeKey(userNameAttributeName)
                 .build();
     }

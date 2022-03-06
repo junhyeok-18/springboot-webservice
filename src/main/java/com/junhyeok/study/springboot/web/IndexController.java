@@ -1,7 +1,7 @@
 package com.junhyeok.study.springboot.web;
 
-import com.junhyeok.study.springboot.confing.auth.LoginUser;
-import com.junhyeok.study.springboot.confing.auth.dto.SessionUser;
+import com.junhyeok.study.springboot.config.auth.LoginUser;
+import com.junhyeok.study.springboot.config.auth.dto.SessionUser;
 import com.junhyeok.study.springboot.service.posts.PostsService;
 import com.junhyeok.study.springboot.web.dto.PostsResponseDto;
 import lombok.RequiredArgsConstructor;
@@ -9,8 +9,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-
-import javax.servlet.http.HttpSession;
 
 @RequiredArgsConstructor
 @Controller

@@ -1,4 +1,4 @@
-package com.junhyeok.study.springboot.confing.auth.dto;
+package com.junhyeok.study.springboot.config.auth.dto;
 
 import com.junhyeok.study.springboot.domain.user.User;
 import lombok.Getter;
