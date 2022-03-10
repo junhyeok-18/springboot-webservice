@@ -36,7 +36,7 @@ deploy:
     bucket: springboot-webservice-buckets
     key: springboot-webservice.zip
     bundle_type: zip
-    application: springboot-webservice-codedeploy
+    application: springboot-webservice
     deployment_group: springboot-webservice-group
     region: ap-northeast-2
     wait-until-deployed: true
